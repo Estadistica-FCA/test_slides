@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presentación de la Asignatura</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Presentación de la Asignatura',
+                        subtitle: 'Estadística 1 | 2020',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: '00_presentacion_files/logo.png',
+              },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Ing. Agr. Patricia Acetta' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+  <link href="site_libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="site_libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="site_libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="site_libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(00_presentacion_files/logo.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+  <link rel="stylesheet" href="ioslides_styles.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="00_presentacion_files/logo.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Bienvenidos!</h2></hgroup><article  id="bienvenidos" class="smaller ">
+
+<aside class='note'><section><p>Hola!</p>
+
+<p>Bienvendios a Estadística 1.</p>
+
+<p>Mi nombre es Agustín Alesso, Profesor Adjunto a cargo de la Cátedra. Soy Ing. Agr. egresado de esta Facultad y doctor en Ciencias Agropecuarias de la UNC.</p></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>Integrantes</h2></hgroup><article  id="integrantes" class="smaller ">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">¿Quién?</th>
+<th align="left">¿Función?</th>
+<th align="left">¿e-mail?</th>
+</tr>
+<tr class="odd">
+<td align="left">Dr. Agustín Alesso</td>
+<td align="left">Profesor Adjunto - Responsable</td>
+<td align="left"><a href='mailto:calesso@fca.unl.edu.ar' title=''>calesso@fca.unl.edu.ar</a></td>
+</tr>
+<tr class="even">
+<td align="left">Ing. Patricia Acetta</td>
+<td align="left">Ayudante de cátedra</td>
+<td align="left"><a href='mailto:pacetta@fca.unl.edu.ar' title=''>pacetta@fca.unl.edu.ar</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Nerio Ghio</td>
+<td align="left">Ayudante alumno</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Antonella Migliarini</td>
+<td align="left">Adscripto</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">María Inés Stegmayer</td>
+<td align="left">Adscripto</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Alejandro Alemán</td>
+<td align="left">Adscripto</td>
+<td align="left"></td>
+</tr>
+</table>
+
+<p>Con ellos, durante los próximos 4 meses estaremos presentándoles los principios básicos del pensamiento estadístico y algunos métodos de análisis de datos mediante el programa de análisis estadístico R.</p>
+
+</article></slide><slide class=""><hgroup><h2>Cómo será el cursado?</h2></hgroup><article  id="cómo-será-el-cursado" class="smaller ">
+
+<p>Los contenidos de la asignatura se abordarán mediante un enfoque tipo clase invertida virtual.</p>
+
+<ul>
+<li><p>Teoría con material audiovisual (video) de 1 h de duración aproximadamente</p></li>
+<li><p>TP Presenciales (2 hs de duración)</p></li>
+</ul>
+
+<p>Además disponen de material teórico escrito (libro, tutoriales y presentaciones).</p>
+
+</article></slide><slide class=""><hgroup><h2>Objetivos de Estadística 1:</h2></hgroup><article  id="objetivos-de-estadística-1" class="smaller ">
+
+<ul>
+<li>Entender los conceptos básicos y fundamentos del pensamiento estadístico (población, muestra, inferencia, incertidumbre).</li>
+<li>Reconocer los componentes sistemáticos y aleatorios de los fenómenos biológicos y la necesidad de los métodos estadísticos para toma de decisiones en un contexto de incertidumbre.</li>
+<li>Utilizar métodos de estadística descriptiva para organizar, resumir, visualizar y explorar datos muestrales.</li>
+<li>Calcular probabilidades de fenómenos aleatorios discretos y continuos</li>
+<li>Utilizar métodos de inferencia estadística para obtener conclusiones basadas en datos</li>
+<li>Distinguir entre significancia estadística y práctica.</li>
+<li>Determinar la correlación entre dos variables aleatorias y modelar dicha relación lineal.</li>
+<li>Valorar los supuestos y limitantes de los métodos estadísticos.</li>
+<li>Procesar datos, ejecutar e interpretar análisis estadísticos comunes utilizando el software estadístico R y RStudio.</li>
+<li>Comunicar apropiadamente los resultados de los métodos estadísticos aplicados mediante texto, tablas y figuras.</li>
+<li>Desarrollar una actitud crítica hacia la información publicada.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Unidades</h2></hgroup><article  id="unidades" class="smaller ">
+
+<ul>
+<li><p>Unidad 1: Estadística descrptiva y análisis exploratorio de datos</p></li>
+<li><p>Unidad 2: Probabilidad</p></li>
+<li><p>Unidad 3: Variables aleatorias y distribuciones de probabilidades</p></li>
+<li><p>Unidad 4: Inferencias basadas en una muestra</p></li>
+<li><p>Unidad 5: Inferencias basadas en dos muestras</p></li>
+<li><p>Unidad 6: Análisis de datos categóricos</p></li>
+<li><p>Unidad 7: Análisis de correlación y regresión lineal simple</p></li>
+</ul>
+
+<aside class='note'><section><p>La asignatura se organiza en 7 unidades que se van relacionando entre sí.</p>
+
+<p>En la Unidad 1 veremos que es y para que se usa la estadística. Trabajaremos algunos conceptos básicos del pensamiento estadístico como poblacion y muestra, muestreo. Veremos que tipos variables existen y que datos pueden contener. Presentaremos métodos para ordenar y resumir esos datos de manera numérica y gráfica.</p>
+
+<p>En la Unidad 2 veremos en que consisten los experimentos aleatorios y que forma tenemos de cálcular las probabiliades de los sucesos.</p>
+
+<p>En la Unidad 3 continuaremos con probabilidad pero a traves del concepto de variables aleatorias. Veremos algunas de sus propiedades como Esperanza y Varianza, y como se distribuyen las probabilidades de los valores que toman esas variables.</p>
+
+<p>En la Unidad 4 y 5 veremos los conceptos anteriores en acción ya que abordaremos inferencia estadística. Aquí aprenderemos técnicas para estimar parámetros desconocidos o probar hipótesis acerca de los mismos a partir de datos muestrales.</p>
+
+<p>En la Unidad 6 continuaremos con técnicas de inferencia pero, a diferencia de lo visto anteriormente, nos concentraremos en técnicas aplicables a datos de tipo categórico.</p>
+
+<p>Finalmente, en la Unidad 7 dejaremos el mundo univariado para estudiar los métodos que nos permitan relacionar dos variables y determinar su asocación o bien su relación causa-efecto.</p></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>Cursado</h2></hgroup><article  id="cursado" class="smaller ">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">¿Qué?</th>
+<th align="center">¿Cuando?</th>
+<th align="center">¿Dónde?</th>
+<th align="center">¿Responsable?</th>
+</tr>
+<tr class="odd">
+<td align="left">Clases teóricas</td>
+<td align="center">ONLINE</td>
+<td align="center">En sus hogares</td>
+<td align="center">Agustín</td>
+</tr>
+<tr class="even">
+<td align="left">Clases Prácticas</td>
+<td align="center">Lun 16.00 - 18.00</td>
+<td align="center">Gabinete 3 Piso</td>
+<td align="center">Patricia</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">Lun 18.00 - 20.00</td>
+<td align="center">Gabinete 3 piso</td>
+<td align="center">Patricia</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="center">Mar 18.00 - 20.00</td>
+<td align="center">Gabinete 3 piso</td>
+<td align="center">Patricia</td>
+</tr>
+<tr class="odd">
+<td align="left">Consultas</td>
+<td align="center">Viernes 16.00</td>
+<td align="center">Cátedra</td>
+<td align="center">Patricia</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="center">Foro de Consultas</td>
+<td align="center">Entorno Virtual</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">Mail</td>
+<td align="center"><a href='mailto:estadistica@fca.unl.edu.ar' title=''>estadistica@fca.unl.edu.ar</a></td>
+<td align="center"></td>
+</tr>
+</table>
+
+<h3>Recomendaciones</h3>
+
+<ol>
+<li><p>Ver vídeos y leer material (libro y presentaciones) ANTES de asistir al TP.</p></li>
+<li><p>Asistir a los TP con ganas de trabajar! En los prácticos el foco es el trabajo con los datos en R e interpretación de resultados.</p></li>
+<li><p>Pueden traer notebook y/o un pendrive con proyecto de RStudio.</p></li>
+</ol>
+
+<aside class='note'><section><ul>
+<li>Durante el cursado nos vamos a organizar de la siguiente manera:</li>
+</ul>
+
+<p>Tendemos clases teóricas, los dias X, en tal aula, a cargo de</p>
+
+<p>etc</p>
+
+<ul>
+<li>Recomendaciones</li>
+</ul></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>Entorno Virtual</h2></hgroup><article  id="entorno-virtual" class="smaller ">
+
+<ul>
+<li><p>Curso: <em>Estadística I</em></p></li>
+<li><p>Contraseña: <em>2020</em></p></li>
+<li><p>Registro obligatorio: <em>SI</em></p></li>
+</ul>
+
+<div class="centered">
+<p><img src="images/qr.jpg" align="middle" style="width: 300px;"/></p></div>
+
+<aside class='note'><section></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>Evaluación y escala de calificación</h2></hgroup><article  id="evaluación-y-escala-de-calificación" class="smaller ">
+
+<ul>
+<li><p>1 evaluación parcial con recuperatorio</p></li>
+<li><p>1 evaluación final integradora presencial para promoción directa (sin recuperatorio)</p></li>
+</ul>
+
+<h3>Nota final para el Promocionado</h3>
+
+<p>Corresponde a la nota del Exámen integrador:</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Rango</th>
+<th align="center">Nota</th>
+</tr>
+<tr class="odd">
+<td align="left">0-59</td>
+<td align="center">(no promocionado)</td>
+</tr>
+<tr class="even">
+<td align="left">60-69</td>
+<td align="center">Aprobado 6</td>
+</tr>
+<tr class="odd">
+<td align="left">70-79</td>
+<td align="center">Bueno 7</td>
+</tr>
+<tr class="even">
+<td align="left">80-89</td>
+<td align="center">Muy Bueno 8</td>
+</tr>
+<tr class="odd">
+<td align="left">90-95</td>
+<td align="center">Distinguido 9</td>
+</tr>
+<tr class="even">
+<td align="left">96-100</td>
+<td align="center">Sobresaliente 10</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Requisitos para regularizar/promocioanr</h2></hgroup><article  id="requisitos-para-regularizarpromocioanr" class="smaller ">
+
+<p><strong>Requisitos para regularizar:</strong></p>
+
+<p>• Inscribirse al cursado de la asignatura y al EV</p>
+
+<p>• Acreditar la asistencia de por lo menos 80% de las clases prácticas (*).</p>
+
+<p>• Obtener no menos de 60% de los puntos en el parcial de regularidad o su recuperatorio.</p>
+
+<p><strong>Requisitos para promocionar:</strong></p>
+
+<p>• Inscribirse al cursado de la asignatura y al EV</p>
+
+<p>• Acreditar la asistencia de por lo menos 80% de las clases prácticas (*)</p>
+
+<p>• Obtener no menos de 60% de los puntos en el parcial de regularidad o su recuperatorio.</p>
+
+<p>• Obtener no menos de 60% de los puntos parcial integrador.</p>
+
+</article></slide><slide class=""><hgroup><h2>Aclaraciones:</h2></hgroup><article  id="aclaraciones" class="smaller ">
+
+<p>(*) éste requisito no será exigido a los alumnos que, según los registros de la cátedra, pueden considerarse &ldquo;recursantes&rdquo;. Si elige comisión, tiene la <strong>obligación</strong> de asistir y cumplir con el requisito.</p>
+
+<p><em>Aquellos alumnos que obtengan menos de 60% en el parcial de regularidad, obtendrán la condición de alumno LIBRE</em></p>
+
+<p><em>Aquellos alumnos que asistan a los TP pero No realicen el parcial de regularidad, obtendrán la condición de alumno ABANDONÓ</em></p>
+
+<p><em>Alumnos LIBRES y/o ABANDONÓ, no pueden realizar el parcial integrador</em></p>
+
+</article></slide><slide class=""><hgroup><h2>Bibliografía</h2></hgroup><article  id="bibliografía" class="smaller ">
+
+<ul>
+<li><p><strong>Triola, Mario F. 2012. Estadístia. [S.l.]: Prentce Hall.</strong></p></li>
+<li><p>Steel, R. G. Y J. H. Torrie. 1985. Bioestadística: Principios y Procedimientos. MARTINEZ, R. (traductor). 2da Edición. McGraw-Hill, Colombia. 622 pp.</p></li>
+<li><p>Hines W y Montgomery D. Probabilidad y estadístca para ingeniería y administración.</p></li>
+</ul>
+
+<ol>
+<li>3era ed. México. Compañía Editorial Contnental.</li>
+</ol>
+
+<ul>
+<li><p>Devore J. Probabilidad y Estadístca para Ingeniería y Ciencias. 2008. 7ma ed. Cengage Learning Editores.</p></li>
+<li><p>Notas de clase</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Cronograma</h2></hgroup><article  id="cronograma" class="smaller ">
+
+<p>En el Entorno Virtual disponen de un CRONOGRAMA tentativo con la distribución de las actividades.</p>
+
+<p><strong>Fechas Importantes:</strong></p>
+
+<ul>
+<li><p>parcial de regularidad: semana del 27/4 (U: 1 a 5)</p></li>
+<li><p>recueratorio: semana del 4/5 (U: 1 a 5)</p></li>
+<li><p>parcial integrador: semana del 8/6 (U: 1 a 7)</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section" class="smaller ">
+
+<p><strong>Otros datos de interés:</strong></p>
+
+<p>Todo el material queda disponible en el Entorno Virtual.</p>
+
+<p>Todas las comunicaciones o &ldquo;Novedades&rdquo; se realizan a través del Entorno Virtual.</p>
+
+<p>Los invitamos a participar del Foro de Consultas y/o consultarnos vía mail o acercarse en a la oficina en los Horarios de consulta.</p>
+
+<p>Estadística I tiene una carga horaria asignada de 4 hs por semana de las cuales sólo son presenciales 2 hs de TP, por lo cual deben:</p>
+
+<h3>AUTOGESTIONAR EL RESTO DEL TIEMPO EN SUS HOGARES PARA VER VIDEOS/LEER EL MATERIAL TEÓRICO Y CONTINUAR LA PRÁCTICA</h3></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

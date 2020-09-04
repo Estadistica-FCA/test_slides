@@ -1,0 +1,5 @@
+name: "Estadistica 1 | FCA-UNL"
+
+output:
+  html_document: default
+output_dir: "." 

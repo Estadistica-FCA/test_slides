@@ -1,0 +1,250 @@
+---
+title: "Presentación de la Asignatura"
+subtitle: "Estadística 1 | 2020"
+author: Ing. Agr. Patricia Acetta
+output:
+  ioslides_presentation:
+    css: ioslides_styles.css
+    logo: images/logo_FCA-UNL_long.png
+    widescreen: true
+    smaller: true
+knit: (function(inputFile, encoding) { 
+      rmarkdown::render(inputFile, encoding = encoding, output_dir = "./slides")})
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, comment = NA)
+options(width = 70)
+```
+
+# Bienvenidos!
+
+<div class="notes">
+Hola!
+
+Bienvendios a Estadística 1. 
+
+Mi nombre es Agustín Alesso, Profesor Adjunto a cargo de la Cátedra. Soy Ing. Agr. egresado de esta Facultad y doctor en Ciencias Agropecuarias de la UNC.
+</div>
+
+## Integrantes
+
+¿Quién?               ¿Función?                                 ¿e-mail?
+--------------------- ----------------------------------------- -------------------------
+Dr. Agustín Alesso     Profesor Adjunto - Responsable            calesso@fca.unl.edu.ar
+Ing. Patricia Acetta   Ayudante de cátedra                       pacetta@fca.unl.edu.ar
+Nerio Ghio             Ayudante alumno
+Antonella Migliarini   Adscripto
+María Inés Stegmayer   Adscripto
+Alejandro Alemán       Adscripto
+--------------------- ----------------------------------------- -------------------------
+
+Con ellos, durante los próximos 4 meses estaremos presentándoles los principios básicos del pensamiento estadístico y algunos métodos de análisis de datos mediante el programa de análisis estadístico R.
+
+
+## Cómo será el cursado?
+
+Los contenidos de la asignatura se abordarán mediante un enfoque tipo clase invertida virtual.
+
+- Teoría con material audiovisual (video) de 1 h de duración aproximadamente
+
+- TP Presenciales (2 hs de duración) 
+
+Además disponen de material teórico escrito (libro, tutoriales y presentaciones).
+
+
+## Objetivos de Estadística 1:
+
+- Entender los conceptos básicos y fundamentos del pensamiento estadístico (población, muestra, inferencia, incertidumbre).
+- Reconocer los componentes sistemáticos y aleatorios de los fenómenos biológicos y la necesidad de los métodos estadísticos para toma de decisiones en un contexto de incertidumbre.
+- Utilizar métodos de estadística descriptiva para organizar, resumir, visualizar y explorar datos muestrales.
+- Calcular probabilidades de fenómenos aleatorios discretos y continuos
+- Utilizar métodos de inferencia estadística para obtener conclusiones basadas en datos
+- Distinguir entre significancia estadística y práctica.
+- Determinar la correlación entre dos variables aleatorias y modelar dicha relación lineal.
+- Valorar los supuestos y limitantes de los métodos estadísticos.
+- Procesar datos, ejecutar e interpretar análisis estadísticos comunes utilizando el software estadístico R y RStudio.
+- Comunicar apropiadamente los resultados de los métodos estadísticos aplicados mediante texto, tablas y figuras.
+- Desarrollar una actitud crítica hacia la información publicada.
+
+
+
+## Unidades
+
+- Unidad 1: Estadística descrptiva y análisis exploratorio de datos
+
+- Unidad 2: Probabilidad
+
+- Unidad 3: Variables aleatorias y distribuciones de probabilidades
+
+- Unidad 4: Inferencias basadas en una muestra
+
+- Unidad 5: Inferencias basadas en dos muestras
+
+- Unidad 6: Análisis de datos categóricos
+
+- Unidad 7: Análisis de correlación y regresión lineal simple
+
+<div class="notes">
+
+La asignatura se organiza en 7 unidades que se van relacionando entre sí.
+
+En la Unidad 1 veremos que es y para que se usa la estadística. Trabajaremos algunos conceptos básicos del pensamiento estadístico como poblacion y muestra, muestreo. Veremos que tipos variables existen y que datos pueden contener. Presentaremos métodos para ordenar y resumir esos datos de manera numérica y gráfica.
+
+En la Unidad 2 veremos en que consisten los experimentos aleatorios y que forma tenemos de cálcular las probabiliades de los sucesos.
+
+En la Unidad 3 continuaremos con probabilidad pero a traves del concepto de variables aleatorias. Veremos algunas de sus propiedades como Esperanza y Varianza, y como se distribuyen las probabilidades de los valores que toman esas variables. 
+
+En la Unidad 4 y 5 veremos los conceptos anteriores en acción ya que abordaremos inferencia estadística. Aquí aprenderemos técnicas para estimar parámetros desconocidos o probar hipótesis acerca de los mismos a partir de datos muestrales. 
+
+En la Unidad 6 continuaremos con técnicas de inferencia pero, a diferencia de lo visto anteriormente, nos concentraremos en técnicas aplicables a datos de tipo categórico. 
+
+Finalmente, en la Unidad 7 dejaremos el mundo univariado para estudiar los métodos que nos permitan relacionar dos variables y determinar su asocación o bien su relación causa-efecto.
+
+</div>
+
+
+## Cursado
+
+
+¿Qué?                  ¿Cuando?             ¿Dónde?                         ¿Responsable?     
+--------------------- -------------------- ----------------------------- -------------------- 
+Clases teóricas        ONLINE               En sus hogares               Agustín
+Clases Prácticas       Lun 16.00 - 18.00    Gabinete 3 Piso              Patricia
+                       Lun 18.00 - 20.00    Gabinete 3 piso              Patricia
+                       Mar 18.00 - 20.00    Gabinete 3 piso              Patricia           
+Consultas              Viernes 16.00        Cátedra                      Patricia
+                       Foro de Consultas    Entorno Virtual      
+                       Mail                 estadistica@fca.unl.edu.ar
+--------------------- -------------------- ----------------------------- -------------------- 
+
+### Recomendaciones
+
+1. Ver vídeos y leer material (libro y presentaciones) ANTES de asistir al TP.
+
+2. Asistir a los TP con ganas de trabajar! En los prácticos el foco es el trabajo con los datos en R e interpretación de resultados. 
+
+3. Pueden traer notebook y/o un pendrive con proyecto de RStudio.
+
+<div class="notes">
+
+- Durante el cursado nos vamos a organizar de la siguiente manera:
+
+Tendemos clases teóricas, los dias X, en tal aula, a cargo de 
+
+etc
+
+- Recomendaciones
+</div>
+
+
+## Entorno Virtual
+
+- Curso: *Estadística I*
+
+- Contraseña: *2020*
+
+- Registro obligatorio: *SI*
+
+<div class='centered'>
+  <img src="images/qr.jpg" align="middle" style="width: 300px;"/>
+</div>
+
+<div class="notes">
+  
+</div> 
+
+## Evaluación y escala de calificación
+
+- 1 evaluación parcial con recuperatorio 
+
+- 1 evaluación final integradora presencial para promoción directa  (sin recuperatorio)
+
+
+### Nota final para el Promocionado
+
+Corresponde a la nota del Exámen integrador:
+
+Rango       Nota
+---------- -------------------
+0-59        (no promocionado)
+60-69       Aprobado 6
+70-79       Bueno 7
+80-89       Muy Bueno 8
+90-95       Distinguido 9
+96-100      Sobresaliente 10
+---------- -------------------
+
+
+## Requisitos para regularizar/promocioanr
+
+**Requisitos para regularizar:**
+
+•	Inscribirse al cursado de la asignatura y al EV
+
+•	Acreditar la asistencia de por lo menos 80% de las clases prácticas (*).
+
+•	Obtener no menos de 60% de los puntos en el parcial de regularidad o su recuperatorio.
+
+**Requisitos para promocionar:**
+
+•	Inscribirse al cursado de la asignatura y al EV
+
+•	Acreditar la asistencia de por lo menos 80% de las clases prácticas (*)
+
+•	Obtener no menos de 60% de los puntos en el parcial de regularidad o su recuperatorio.
+
+•	Obtener no menos de 60% de los puntos parcial integrador.
+
+## Aclaraciones:
+
+(*) éste requisito no será exigido a los alumnos que, según los registros de la cátedra, pueden considerarse “recursantes”. Si elige comisión, tiene la **obligación** de asistir y cumplir con el requisito.
+
+_Aquellos alumnos que obtengan menos de 60% en el parcial de regularidad, obtendrán la condición de alumno LIBRE_
+
+_Aquellos alumnos que asistan a los TP pero No realicen el parcial de regularidad, obtendrán la condición de alumno ABANDONÓ_
+
+_Alumnos LIBRES y/o ABANDONÓ, no pueden realizar el parcial integrador_
+
+
+## Bibliografía
+
+- **Triola, Mario F. 2012. Estadístia. [S.l.]: Prentce Hall.**
+
+- Steel, R. G. Y J. H. Torrie. 1985. Bioestadística: Principios y Procedimientos. MARTINEZ, R. (traductor). 2da Edición. McGraw-Hill, Colombia. 622 pp.
+
+- Hines W y Montgomery D. Probabilidad y estadístca para ingeniería y administración.
+1996. 3era ed. México. Compañía Editorial Contnental.
+
+- Devore J. Probabilidad y Estadístca para Ingeniería y Ciencias. 2008. 7ma ed. Cengage
+Learning Editores.
+
+- Notas de clase
+
+## Cronograma 
+
+En el Entorno Virtual disponen de un CRONOGRAMA tentativo con la distribución de las actividades.
+
+**Fechas Importantes:**
+
+- parcial de regularidad: semana del 27/4  (U: 1 a 5)
+
+- recueratorio: semana del 4/5  (U: 1 a 5)
+
+- parcial integrador: semana del 8/6  (U: 1 a 7)
+
+## 
+
+**Otros datos de interés:**
+
+Todo el material queda disponible en el Entorno Virtual.
+
+Todas las comunicaciones o "Novedades" se realizan a través del Entorno Virtual.
+
+Los invitamos a participar del Foro de Consultas  y/o consultarnos vía mail o acercarse en a la oficina en los Horarios de consulta.
+
+
+Estadística I tiene una carga horaria asignada de 4 hs por semana de las cuales sólo son presenciales 2 hs de TP, por lo cual deben:
+
+
+### AUTOGESTIONAR EL RESTO DEL TIEMPO EN SUS HOGARES PARA VER VIDEOS/LEER EL MATERIAL TEÓRICO  Y CONTINUAR LA PRÁCTICA
