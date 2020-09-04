@@ -1,5 +1,6 @@
 name: "Estadistica 1 | FCA-UNL"
 
 output:
-  html_document: default
+  html_document:
+    css: styles.css
 output_dir: "." 
